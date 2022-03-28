@@ -11,7 +11,16 @@ class scene extends Phaser.Scene {
     this.load.image('spike', 'assets/images/spike.png');
     this.load.image('move', 'assets/images/mouvable.png');
     this.load.image('save', 'assets/images/Save.png');
-    // At last image must be loaded with its JSON
+
+    this.load.image('luciole1', 'assets/anims/luciole.png');
+    this.load.image('luciole2', 'assets/anims/luciole2.png');
+    this.load.image('luciole3', 'assets/anims/luciole3.png');
+    this.load.image('luciole4', 'assets/anims/luciole4.png');
+
+    this.load.image('luciole', 'deposez assets pour tileset ici/luciole.png');
+    this.load.image('yellowFlares', 'deposez assets pour tileset ici/yellowFlares.png');
+
+      // At last image must be loaded with its JSON
     this.load.atlas('player', 'assets/images/kenney_player.png', 'assets/images/kenney_player_atlas.json');
     this.load.image('tiles', 'assets/tilesets/platformPack_tilesheet.png');
     // Load the export Tiled JSON
